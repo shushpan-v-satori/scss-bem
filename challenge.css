@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.postcard {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-start;
+}
+.postcard .postcard__img {
+  width: 100vw;
+}
+.postcard .postcard__title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  padding: 40px 40px;
+}
+.postcard .postcard__description {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding: 40px 40px;
+}
+.postcard .postcard__buttons {
+  display: flex;
+}
+.postcard .postcard__buttons .postcard__button {
+  display: block;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 40px 20px 40px 40px;
+}
+.postcard .postcard__buttons .postcard__button--hover:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}/*# sourceMappingURL=challenge.css.map */
